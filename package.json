@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-typescript-css-modules",
   "version": "1.0.1",
-  "description": "A plugin for using CSS Modules and Typescript",
+  "description": "A gatsbyjs plugin for using CSS Modules and Typescript",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -14,7 +14,11 @@
     "css",
     "typescript"
   ],
-  "author": "",
+  "author": "Jonathan Creamer",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "license": "ISC",
   "jest": {
     "moduleFileExtensions": [
