@@ -1,0 +1,46 @@
+{
+  "name": "gatsby-plugin-typescript-css-modules",
+  "version": "1.0.0",
+  "description": "A plugin for using CSS Modules and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run test && npm run build",
+    "version": "standard-version"
+  },
+  "keywords": [
+    "gatsby",
+    "css",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.spec.(ts|tsx)"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.0",
+    "jest": "^22.0.4",
+    "standard-version": "^4.2.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "extract-text-webpack-plugin": "^1.0.1",
+    "postcss-loader": "^2.0.9",
+    "style-loader": "^0.19.1",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^1.15.0"
+  }
+}
