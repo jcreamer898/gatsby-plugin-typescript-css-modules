@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jcreamer898/gatsby-plugin-typescript-css-modules.svg?branch=master)](https://travis-ci.org/jcreamer898/gatsby-plugin-typescript-css-modules)
+
 # Gatsby Plugin Typescript CSS Modules
 This [GatsbyJS](gatsbyjs.org) plugin allows for using TypeScript along side CSS Modules.
 
