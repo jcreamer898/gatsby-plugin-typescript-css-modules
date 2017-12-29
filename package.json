@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-typescript-css-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for using CSS Modules and Typescript",
   "main": "index.js",
   "scripts": {
