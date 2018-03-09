@@ -11,6 +11,7 @@
   },
   "keywords": [
     "gatsby",
+    "gatsby-plugin",
     "css",
     "typescript"
   ],
